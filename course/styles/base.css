@@ -1,0 +1,116 @@
+
+#content{
+  max-width: 1600px;
+  margin: auto;
+  display:grid;
+}
+head{
+  justify-content: center;
+  margin-left: 0px;
+}
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  width: 1600px;
+  height: 300px;
+}
+
+nav img{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-left: 20%;
+}
+nav a{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-size: 2rem;
+  margin-top: 100PX;
+  margin-right: 0%;
+  padding: 60PX;
+  width: 190px;
+  height: 800px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+
+}
+header{
+  background-color: rgb(6, 54, 54);
+  width: 1600px;
+  height: 800px;
+}
+header img{
+  margin-left: 3%;
+}
+
+h1{
+  margin-left: 40%;
+  margin-top: -20%;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-size: 90px;
+  color: white;
+}
+h2{
+  height: 150px;
+  margin-top: 2%;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-size: 4rem;
+
+}
+
+#card{
+  background-color: rgb(6, 54, 54);
+  border-radius: 2rem;
+  width: 1600px;
+  height: 800px;
+  
+}
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+h4{
+  background-color: white;
+  margin-top: 150px;
+  width: 1600px;
+  height: 600px;
+}
+
+.card{
+  border-radius: 2rem;
+  box-sizing: border-box;
+  background-color: rgb(6, 54, 54);
+  width: 1600px; 
+  height: 800px;
+}
+
+footer{
+  background-color: rgb(6, 54, 54);
+  width: 1600px; 
+  height: 500px;
+  margin-top: 5%;
+  
+} 
+
+footer p{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+#lastmodified{
+font-family: 'Courier New', Courier, monospace;
+color: coral;
+}
+
+
