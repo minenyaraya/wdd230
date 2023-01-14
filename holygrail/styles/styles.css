@@ -24,6 +24,8 @@ body {
     background: coral;
     font-size: large;
     grid-column: 2/ 2;
+    padding: 2rem;
+    
   
     
   }
