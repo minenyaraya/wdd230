@@ -1,0 +1,96 @@
+@media screen and (min-width: 600px)  {
+   nav,
+   header,
+   footer {
+       max-width: 100%;
+   } 
+
+   main {
+       max-width: 70%;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+
+   .menu {
+       text-align: right;
+   }
+
+   .mode {
+       margin-left: 500px;
+   }
+
+   .card {
+       grid-row: 2 / span 2;
+       width: 100%;
+       padding-bottom: 0px;
+   }
+
+
+  main h2 {
+       grid-column: 1 / span 2;
+       font-size: 2em;
+       margin-bottom: 20px;
+   }
+
+   .card2 {
+       height: 120px;
+       width: 100%;
+       margin-bottom: 20px;
+       padding-bottom: 0px;
+   }
+
+   div.project {
+       padding-bottom: 20px;
+   }
+
+   .card3 {
+       grid-column: 2 / span 1 !important;
+       width: 100%;
+       padding-bottom: 2px;
+   }
+
+   a.coc {
+       padding-left: 35px;
+       padding-top: 20px !important;
+       text-decoration: underline;
+     }
+
+   h3 {
+       padding-top: 10px;
+       margin: 0px;
+       margin-bottom: 15px;
+   }
+
+   nav {
+       font-size: 1.2em;
+       justify-content: right;
+       flex-direction:row-reverse;
+
+   }
+
+   img#hm {
+       max-width: 70%;
+       margin-left: auto;
+       margin-right: 0px;
+       padding-top: 20px;
+   }
+
+   header {
+       height: 150px;
+   }
+   img {
+       max-width: 70%;
+       margin-top: -20px;
+     }   
+   
+     h1{
+       text-align: center;
+       font-size: 3em;
+       margin-left: -200px;
+     }
+
+     footer {
+       font-size: 1.5em;
+       padding: 10px;
+     }
+}

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+nav,
+header,
+main,
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.lista{
+  text-decoration: none;
+  color: rgb(90, 102, 136);
+}
+
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 200px;
+    font-size: 1.5em;
+}
+#mode {
+  position: absolute;
+  color: white;
+  margin-top: -60px;
+}
+
+.menu {
+  display: flex;
+  margin-right: 0px;
+	list-style-type: none;
+	margin: 0;
+	padding: 40px;
+	background: black;
+	z-index: 10;
+	overflow: hidden;
+	box-shadow: 2px 0 20px white;
+}
+.menu a {
+  background-color: black;
+	text-decoration: none;
+	width: 12rem;
+	padding: 1rem;
+	color: #f1e9f0;
+	position: relative;
+	
+}
+
+.menu  a:hover,
+.menu:first-child a {
+	color: white;
+}
+
+a.menu-item {
+	display: none;
+}
+
+a.open {
+	display: flex;
+}
+
+.close::before {
+	content: "Close ";
+}
+
+a {
+  color: rgb(90, 102, 136);
+  text-decoration: none;
+  background: none;
+}
+
+  img {
+    max-width: 60%;
+    margin-left: 40px;
+  }
+
+h1{
+    color: white;
+    padding: 18px;
+    font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+  border-bottom: 1px solid #360f8a;
+}
+
+h3{
+    color: white;
+    background-color: #360f8a;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 15px;
+}
+
+p {
+  padding-left: 35px;
+}
+
+.edmond {
+  padding-left: 35px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eddf1b !important;
+}
+
+h2{
+  color: rgb(90, 102, 136);
+  margin-bottom: -100px;
+  padding: 15px;
+}
+header {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 210px 1fr;
+    grid-gap: 2em;
+    align-items: center;
+    background-color: #360f8a;  
+}
+ul {
+    font-family: sans-serif;
+  }
+
+  li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  li a {
+    text-decoration: none;
+  
+  }
+.info{
+  text-align: center;
+}
+  .card,
+  .card2,
+  .card3 {
+    max-width: 80%;
+    text-align: left;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px rgba(0.2,0.2,0.2,0.2);
+    padding-bottom: 15px;
+  }
+
+footer{
+    padding: 20px;
+    background-color: #360f8a; 
+    color: white;  
+    text-align: center;
+}
+
+.highlight {
+    color: #c8792f;
+}
